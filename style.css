@@ -1,14 +1,13 @@
 body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-header{
-    background-color: rgb(42, 14, 167);
-}
-main{
     background-color: rgb(245, 240, 240);
 }
-h2{
+header{
+    background-color: rgb(106, 76, 241);
+    margin-bottom: 30px;
+}
+.topers h2{
     color: rgb(80, 55, 192);
     font-weight: 500;
 }
@@ -49,5 +48,31 @@ h2{
 }
 .container-topers{
     margin:auto;
-    width: 80%;
+    padding: 15px;
+    width: 77%;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.top-players{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.single-player{
+    width: 30%;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.single-player img{
+    width: 20%;
+    padding: 15px;
+    margin-left: 80px;
+}
+.player{
+    text-decoration: none;
+    font-weight: 700;
 }
