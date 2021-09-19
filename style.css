@@ -46,8 +46,9 @@ header{
     color: #fff;
     text-decoration: none;
 }
-.container-topers{
+.container{
     margin:auto;
+    margin-bottom: 20px;
     padding: 15px;
     width: 77%;
     background-color: #fff;
@@ -75,4 +76,32 @@ header{
 .player{
     text-decoration: none;
     font-weight: 700;
+}
+.top-blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.single-blog{
+    width: 47%;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.single-blog img{
+    width: 40%;
+    padding: 15px;
+    margin-left: 80px;
+}
+.blog{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.blog h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: blueviolet;
 }
