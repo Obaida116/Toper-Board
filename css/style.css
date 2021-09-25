@@ -11,11 +11,13 @@ header{
     margin-bottom: 30px;
     grid-column: 1/-1;
     grid-row: 1/2;
+    min-width: 560px;
 }
 main{
     width: 1200px;
     max-width: 78%;
     margin: 0 auto;
+    min-width: 560px;
 }
 .container-header h2{
     color: #fff;
