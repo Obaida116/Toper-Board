@@ -21,6 +21,7 @@ main{
 }
 .container-header h2{
     color: #fff;
+    margin-left: 0px;
 }
 h2{
     color: rgb(80, 55, 192);
